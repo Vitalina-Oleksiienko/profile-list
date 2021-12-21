@@ -1,0 +1,58 @@
+// .showmore {
+//     display: block;
+//     overflow: hidden;
+//     height: 0;
+//     transition-property: height;
+//     transition-duration: 800ms;
+    
+    
+//   }
+//   .showmore.is-hidden {
+//     height: var(--height-cont);
+//   }
+//   .showmore.is-hidden + .showmore__button--open {
+//     display: none;
+//   }
+
+.contacts__list .menu-active{
+  position: relative;
+  width: 100%;
+}
+// .menu-active .add__item{
+//   display: block;
+// }
+  .showmore__button {
+    background-color: transparent;
+    border: none;
+  
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 3.61;
+    text-align: center;
+    color: var(--buttons-bg);
+    transition: var(--transition-duration) var(--transition-function) color;
+      
+    &:hover,
+    &:focus {
+      color: var(--menu-focus);
+    }
+  }
+  .show-more{
+    //margin-top: 22px;
+    border-top: 2px solid #E8ECF4;
+    text-align: center;
+}
+.show-more__text{
+    padding: 12px 0 12px 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    cursor: pointer;
+
+    
+
+    color: var(--text-color);
+}

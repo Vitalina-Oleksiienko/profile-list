@@ -1,0 +1,21 @@
+.featured__container--two{
+    width: 883px;
+    height: 146px;
+
+    background: var(--list-color);
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
+    border-radius: 7px;
+}
+.featured{
+    padding: 0 0 31px 260px;
+}
+.featured__text{
+    padding: 21.75px 28px 23px 29px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.4;
+
+    color: var(--text-color);
+}

@@ -1,0 +1,24 @@
+.dropdown-menu {
+    display: none;
+}
+
+.menu-active {
+    width: 11%;
+    position: absolute;
+    z-index: 1;
+    // top: 4.06vw;
+    // right: 1.77vw;
+    display: block;
+    background: var(--list-color);
+    
+
+}
+.btn{
+    // padding: 10px;
+    // background: none;
+    // border: none;
+}
+
+.welcome__dropdown{
+    //position: relative;
+}

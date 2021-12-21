@@ -1,0 +1,51 @@
+.photo{
+    padding: 0 0 31px 260px;
+}
+.photo__container{
+    position: relative;
+    width: 883px;
+    //height: 440px;
+
+    background: var(--list-color);
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
+    border-radius: 7px;
+}
+.photo__block{
+    padding: 25px  0 25px 53px;
+}
+.photo__img{
+    display: inline;
+    margin: 0 23px 23px 0;
+
+    object-fit: cover;
+}
+.photo__indicator .slider__indicators{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.photo__indicator .slider__indicators li{
+    padding-top: 0;
+    width: 26px;
+    height: 9px;
+    
+    background: #00193F;
+    border-radius: 5.5px;
+
+}
+.photo__indicator .slider__indicators .active {
+    padding: 0;
+    width: 74px;
+    height: 9px;
+    border-radius: 5.5px
+}

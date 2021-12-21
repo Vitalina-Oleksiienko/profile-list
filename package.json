@@ -1,0 +1,36 @@
+{
+  "name": "profile-list",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Vitalina-Oleksiienko.github.io/profile-list",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /profile-list/",
+    "commit": "git commit -m",
+    "push": "git push",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vitalina-Oleksiienko/profile-list.git"
+  },
+  "keywords": [],
+  "author": "Vitalina-Oleksiienko <vvitalina_oleksienko@yahoo.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitalina-Oleksiienko/profile-list/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "gh": "^2.8.9",
+    "gh-pages": "^3.2.3"
+  }
+}

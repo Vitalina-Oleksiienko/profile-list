@@ -1,0 +1,49 @@
+<div class="modal" data-modal="2">
+    <div class="contact">
+        <p class="modal__title">Contact Info</p>
+        <ul class="contact__list">
+            <li class="contact__item">
+                <p class="contact__text">Profile Address</p>
+                <a class="contact__link" href="">musiclinkup.com/up/profilename</a>
+            </li>
+            <li class="contact__item">
+                <p class="contact__text">Website</p>
+                <a class="contact__link" href="">www.companywebsite.com</a>
+            </li>
+            <li class="contact__item">
+                <p class="contact__text">Phone</p>
+                <a class="contact__link" href="">1836128638-3103</a>
+            </li>
+            <li class="contact__item">
+                <p class="contact__text">Email</p>
+                <a class="contact__link" href="">name@companywebsite.com</a>
+            </li>
+            <li class="contact__item">
+                <p class="contact__text">Twitter</p>
+                <a class="contact__link" href="">twitter.com/profilename</a>
+            </li>
+        </ul>
+    </div>
+    <button class="modal__cross--first js-open-modal" data-modal="3" type="submit">Edit</button>
+    <!-- <button class="modal__cross--second js-modal-close" type="button">Cancel</button> -->
+    <div class="modal" data-modal="3">
+        <p class="modal__title">Edit Contact Info</p>
+        <form class="change" action="">
+            <label class="change__title" for="">Profile Address</label>
+            <input class="change__input" type="text" required="" placeholder="musiclinkup.com/up/profilename">
+            <label class="change__title" for="">Website</label>
+            <input class="change__input" type="text" required="" placeholder="www.companywebsite.com">
+            <label class="change__title" for="">Phone</label>
+            <input class="change__input" type="number" required="" placeholder="1836128638-3103">
+            <label class="change__title" for="">Email</label>
+            <input class="change__input" type="email" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Only lowercase is requred. Invalid email address" placeholder="name@companywebsite.com">
+            <label class="change__title" for="">Twitter</label>
+            <input class="change__input" type="text" required="" placeholder="twitter.com/profilename">
+        </form>
+        <button class="modal__cross--first js-modal-close" type="submit">Save</button>
+        <button class="modal__cross--second js-modal-close" type="button">Discard changes</button>
+    </div>
+
+    <!-- Подложка под модальным окном -->
+    <div class="overlay js-overlay-modal"></div>
+</div>

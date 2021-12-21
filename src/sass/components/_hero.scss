@@ -1,0 +1,29 @@
+.hero{
+    padding-top: 46px;
+    
+}
+.hero__container{
+    position: relative;
+}
+.hero__img{
+    margin: 0 auto;
+    background: var(--accent-color);
+    border-radius: 5px;
+}
+.hero__foto{
+    position: absolute;
+    left: 261px;
+    bottom: -84px;
+    background: var(--list-color);
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+}
+.hero__foto-img{
+    position: absolute;
+    left: 9px;
+    bottom: 9px;
+       
+    border-radius: 50%;
+
+}

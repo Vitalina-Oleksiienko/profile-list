@@ -1,0 +1,81 @@
+<section class="talent">
+    <div class="talent__container">
+        <h2 class="experience__title">Talent Demonstration</h2>
+
+        <svg class="talent__svg js-open-modal" data-modal="7" width="20" height="20">
+            <use href="./images/sprite.svg#pen"></use>
+        </svg>
+        <ul class="talent__block">
+            <li class="talent__item">
+                <div class="talent__item--top">
+                    <p class="talent__text">My First Song</p>
+                    <img src="./images/youtube.png" alt="img">
+                </div>
+                <img class="talent__middle" src="./images/play.png" alt="">
+                <audio onloadeddata="loadtime(this, this.duration)" ontimeupdate="update_time(this, this.currentTime);">
+                    <source src="./audio/Boney M - Jingle bells.mp3" type="audio/mp3">
+                </audio>
+                <p class="duration_time">2:45</p>
+            </li>
+            <li class="talent__item">
+                <div class="talent__item--top">
+                    <p class="talent__text">Second Song</p>
+                    <img src="./images/youtube.png" alt="img">
+                </div>
+                <div>
+                    <img class="talent__middle" src="./images/play.png" alt="">
+                    <audio>
+                        
+                    </audio>
+                </div>
+                <p class="duration_time">2:45</p>
+            </li>
+            <li class="talent__item">
+                <div class="talent__item--top">
+                    <p class="talent__text">Third Song</p>
+                    <img src="./images/spotify.png" alt="">
+                </div>
+                <div >
+                    <img class="talent__middle" src="./images/play.png" alt="">
+                    <audio onloadeddata="loadtime(this, this.duration)" ontimeupdate="update_time(this, this.currentTime);">
+                        <source src="./audio/Boney M - Jingle bells.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <p class="duration_time">1:12</p>
+            </li>
+            <li class="talent__item">
+                <div class="talent__item--top">
+                    <p class="talent__text">Main Presentation</p>
+                    <img src="./images/youtube.png" alt="">
+                </div>
+                <div >
+                    <img class="talent__middle" src="./images/play.png" alt="">
+                    <audio onloadeddata="loadtime(this, this.duration)" ontimeupdate="update_time(this, this.currentTime);">
+                        <source src="./audio/Boney M - Jingle bells.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <p class="duration_time">2:45</p>
+            </li>
+        </ul>
+
+    </div>
+
+</section>
+<!-- <script>
+    function loadtime(elem, audio_duration){
+    let next_elem = elem.parentElement.nextElementSibling;
+    next_elem.innerHTML = (format_time(audio_duration));
+}
+    function update_time(elem, current_time){
+        let next_elem = elem.parentElement.nextElementSibling;
+        next_elem.innerHTML = (format_time(current_time));
+    }
+    function format_time(audio_duration){
+        sec = Math.floor( audio_duration );
+        min = Math.floor( sec / 60 );
+        min = min >= 10 ? min : '0' + min;
+        sec = Math.floor( sec % 60 );
+        sec = sec >= 10 ? sec : '0' + sec;
+        return min + ":"+ sec;
+    }
+</script> -->

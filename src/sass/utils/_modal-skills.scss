@@ -1,0 +1,56 @@
+.skills__form{
+    
+   
+    
+}
+.skills__lable{
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #000000;
+    
+}
+.skills__input{
+    background: #E8F2FF;
+    border-radius: 7px;
+    border-color: #E8F2FF;
+    padding: 5px 13.5px 7px 13.5px;
+    width: 950px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 34px;
+
+    color: #000000;
+    margin-bottom: 13px;
+}
+.skills__block{
+    margin: 13px 0 39px 0;
+
+}
+.skills__link{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #1E92FE;
+    border-radius: 7px;
+    padding: 11px 10px 10px 13.5px;
+    margin-right: 22px;
+}
+.skills__link:hover{
+    background: #00193F;
+}

@@ -1,0 +1,79 @@
+.contacts{
+    padding: 0 0 31px 260px;
+}
+.contacts__container{
+    position: relative;
+    width: 883px;
+    //height: 440px;
+
+    background: var(--list-color);
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
+    border-radius: 7px;
+
+}
+.contacts__title{
+    padding: 17.5px 0 13.5px 29px;
+    margin-bottom: 21.75px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+
+    color: var(--text-color);
+
+    border: 2px solid #E8ECF4;
+}
+.contacts__svg{
+    position: absolute;
+    z-index: 2;
+    top: 29px;
+    right: 28px;
+    float: right;
+}
+.contacts__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px 15px;
+    
+}
+.contacts__item{
+    margin-left: 29px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.contacts__item:last-child{
+    
+}
+.contacts__img{
+    width: 74px;
+    height: 74px;
+    object-fit: cover;
+
+}
+.contacts__text{
+    align-items: center;
+    margin-left: 18px;
+    
+}
+.contacts__info{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: var(--text-color);
+}
+.contacts__quantity{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: var(--additional-text-color);
+}
